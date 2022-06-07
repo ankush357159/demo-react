@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Counter.css";
+import "./counter.css";
 
 export default class Counter extends Component {
   state = { value: 1 };
@@ -17,6 +17,7 @@ export default class Counter extends Component {
   render() {
     return (
       <div>
+        
         <button className='btn-increase' onClick={this.increaseValue}>
           +
         </button>
@@ -24,6 +25,7 @@ export default class Counter extends Component {
         <button className='btn-decrease' onClick={this.descreaseValue}>
           -
         </button>
+        
       </div>
     );
   }
