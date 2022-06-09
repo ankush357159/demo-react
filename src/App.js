@@ -2,7 +2,12 @@ import { useState } from "react";
 import { LoginContext, UserDataContext } from "./helper/Context";
 // import SubChildElement from "./SubChildElement"
 
-import Login from "./Components/Login";
+// import Login from "./Components/Login";
+// import MyList from "./Components/MyList";
+// import ParentComponent from "./Components/ParentComponent";
+// import Index from "./Components/Index";
+// import Ref from "./Components/Ref";
+import List from "./Components/List";
 // import FuncCounter from "./Components/FuncCounter";
 
 function App() {
@@ -25,8 +30,12 @@ function App() {
         {/* <Counter /> */}
      {/* <FuncCounter />  */}
         {/* /* <Home name="John" /> */}
-         <Login />
+         {/* <Login /> */}
         {/* <SubChildElement />  */}
+        {/* <ParentComponent /> */}
+        {/* <Index /> */}
+        {/* <Ref /> */}
+        <List />
       </UserDataContext.Provider>
     </LoginContext.Provider>
   );
